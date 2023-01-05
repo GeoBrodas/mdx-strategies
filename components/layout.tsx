@@ -9,6 +9,7 @@ interface LayoutProps {
   children: React.ReactNode;
   meta: { author: string; title: string; slug: string; topics: string[] };
 }
+
 const components = {
   h1: Heading.H1,
   h2: Heading.H2,
